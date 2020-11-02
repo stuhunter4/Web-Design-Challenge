@@ -1,7 +1,6 @@
 h2 {
     color: #4aaaa5;
-    background: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;
+    font-family: Georgia, serif;
     font-weight: bolder;
 }
 
@@ -9,14 +8,59 @@ body {
     background: #ededed;
 }
 
-.navbar {
-    background: #4aaaa5;
+section {
+    background-color: #FFFFFF;
 }
 
-h1 {
-    background: #4aaaa5;
+#home {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Georgia, serif;
+    font-weight: bolder;
+    font-size: 27px;
+    padding: 10px;
+    text-align: center;
 }
 
-p {
-    background: #FFFFFF;
+.container {
+    width: 1024px;
+    margin:0 auto;
+}
+
+.box {
+    position: relative;
+}
+
+.box-1-1 {
+    left: 1%;
+}
+
+.bar {
+    background-color: white;
+}
+
+
+#image,
+#text {
+    float: left;
+}
+
+#figure {
+    position: relative;
+    padding: 10px;
+    top: 5%;
+}
+
+#text {
+    width: 85%;
+}
+
+#image {
+    width: 200px;
+    height: 200px;
+}
+
+#image2 {
+    width: 150px;
+    height: 150px;
 }

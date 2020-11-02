@@ -4,11 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Landing</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
+</head>
 
 <body>
 
@@ -19,27 +16,27 @@
     </button>
     
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Plots
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/lat_v_temp.html">Max Temperature</a>
-            <a class="dropdown-item" href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/lat_v_humid.html">Humidity</a>
-            <a class="dropdown-item" href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/lat_v_cloud.html">Cloudiness</a>
-            <a class="dropdown-item" href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/lat_v_wind.html">Wind Speed</a>
-          </div>
-        </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/lat_v_temp.html">Latitude vs Temperature</a>
+          <a class="dropdown-item" href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/lat_v_humid.html">Latitude vs Humidity</a>
+          <a class="dropdown-item" href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/lat_v_cloud.html">Latitude vs Cloudiness</a>
+          <a class="dropdown-item" href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/lat_v_wind.html">Latitude vs Wind Speed</a>
+        </div>
+      </li>
 
-        <li class="nav-item active">
-          <a class="nav-link"  target="_blank" href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/comparisons.html">Comparison <span class="sr-only">(current)</span></a>
-        </li>
+      <li class="nav-item active">
+        <a class="nav-link"  target="_blank" href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/comparisons.html">Comparison <span class="sr-only">(current)</span></a>
+      </li>
 
-        <li class="nav-item active">
-          <a class="nav-link"  target="_blank" href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/data.html">Data <span class="sr-only">(current)</span></a>
-        </li>       
-      </ul>
+      <li class="nav-item active">
+        <a class="nav-link"  target="_blank" href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/data.html">Data <span class="sr-only">(current)</span></a>
+      </li>       
+      
     </div>
   </nav>
 
@@ -49,18 +46,13 @@
         <section>
           <h2>Summary: Latitude vs. X</h2>
           <hr>
-          <div class="thumbnail">
-          <a target="_blank" href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/lat_v_temp.html">
-            <img src="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig1.png" alt="Latitude_v_Temp" class="img-thumbail">
-          </a>
-          </div>
           <article>
           <a target="_blank" href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/lat_v_temp.html">
             <img src="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig1.png" alt="Latitude_v_Temp">
           </a>
           </article>
           <p>The purpose of this project was to analye how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeaterMap API to assemble a dataset on over 500 cities.</p>
-          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>       
+          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
         </section> 
       </div>
       <div class="col-md-3">

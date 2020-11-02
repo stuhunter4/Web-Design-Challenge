@@ -1,0 +1,22 @@
+h2 {
+    color: #4aaaa5;
+    background: #FFFFFF;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+}
+
+body {
+    background: #ededed;
+}
+
+.navbar {
+    background: #4aaaa5;
+}
+
+h1 {
+    background: #4aaaa5;
+}
+
+p {
+    background: #FFFFFF;
+}

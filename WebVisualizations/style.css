@@ -32,6 +32,10 @@ body {
     .size_color {background-color: white;}
 }
 
+.border {
+    border-color: #4aaaa5 !important;
+}
+
 #image,
 #text {
     float: left;

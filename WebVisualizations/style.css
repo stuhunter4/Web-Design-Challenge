@@ -22,6 +22,11 @@ body {
     background-color: white;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 @media screen and (max-width: 767px) {
     .navbar {background-color: #4aaaa5;} 
     .size_color {background-color: white;}
@@ -34,7 +39,6 @@ body {
 
 #figure {
     position: relative;
-    width: 900;
     margin:0 auto;
     background-color: white;
     padding: 40px;
@@ -43,7 +47,7 @@ body {
 
 #figure2 {
     position: relative;
-    width: 300px;
+    width: 350px;
     margin:0 auto;
     background-color: white;
     padding: 40px;
@@ -56,6 +60,14 @@ body {
     background-color: white;
     padding: 40px;
     top: 40px;
+}
+
+#figure4 {
+    position: relative;
+    margin:0 auto;
+    background-color: white;
+    padding: 40px;
+    top: 5%;
 }
 
 #text {

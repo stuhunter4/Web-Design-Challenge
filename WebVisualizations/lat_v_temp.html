@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     
-<body>
+<body class="size_color">
     <nav class="navbar navbar-expand-lg navbar-light bar">
     <a id = "home" class="navbar-brand" href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/index.html">Latitude</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,6 +38,45 @@
         </ul>
     </div>
     </nav>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-10">
+            <section id="figure">
+              <h2>Max Temperature</h2>
+              <hr>
+              <div class="thumbnail">
+              <a href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/lat_v_temp.html">
+                <img  class="img-fluid" src="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig1.png" alt="Latitude_v_Temp">
+              </a>
+              </div>
+              <p>The purpose of this project was to analye how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeaterMap API to assemble a dataset on over 500 cities.</p>
+              <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>       
+            </section> 
+          </div>
+          <div class="col-md-2">
+            <section id="figure2">
+              <h2>Visualizations</h2>
+              <hr>
+              <div class="main">
+                <a href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/lat_v_temp.html">
+                  <img id="image2" class="border border-info" src="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig1.png" alt="Latitude_v_Temp">
+                </a>
+                <a href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/lat_v_humid.html">
+                  <img id="image2" src="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig2.png" alt="Latitude_v_Humid">
+                </a>
+              </div>
+              <div class="main">  
+                <a href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/lat_v_cloud.html">
+                  <img id="image2" src="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig3.png" alt="Latitude_v_Cloud">
+                </a>
+                <a href="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/lat_v_wind.html">
+                  <img id="image2" src="https://stuhunter4.github.io/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig4.png" alt="Latitude_v_Wind">
+                </a>  
+              </div>
+            </section> 
+          </div>
+        </div>
+      </div>
 </body>
 
 </html>

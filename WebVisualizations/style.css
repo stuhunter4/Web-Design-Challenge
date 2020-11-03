@@ -22,6 +22,11 @@ body {
     background-color: white;
 }
 
+@media screen and (max-width: 767px) {
+    .navbar {background-color: #4aaaa5;} 
+    .size_color {background-color: white;}
+}
+
 #image,
 #text {
     float: left;

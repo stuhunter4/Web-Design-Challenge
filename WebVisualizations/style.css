@@ -47,6 +47,7 @@ body {
 
 #figure3 {
     position: relative;
+    margin:0 auto;
     background-color: white;
     padding: 40px;
     top: 40px;
@@ -64,6 +65,13 @@ body {
 #image2 {
     width: 150px;
     height: 150px;
+}
+
+#image3 {
+    max-width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
 }
 
 .main {

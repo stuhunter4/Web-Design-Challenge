@@ -1,52 +1,12 @@
-body {
-    background: #ededed;
-}
-
 h2 {
     color: #4aaaa5;
     font-family: Georgia, serif;
     font-weight: bolder;
 }
 
-table {
-    font-family: arial, sans-serif;
+body {
+    background: #ededed;
 }
-  
-td, th {
-    border: 1px solid #e9e9e9;
-    text-align: left;
-    padding: 8px;
-}
-  
-tr:nth-child(even) {
-    background-color: #e9e9e9;
-}
-
-
-@media screen and (max-width: 767px) {
-    .navbar {background-color: #4aaaa5;} 
-    .size_color {background-color: white;}
-}
-
-
-.bar {
-    background-color: white;
-}
-
-.border {
-    border-color: #4aaaa5 !important;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-.main {
-    display: flex;
-    justify-content: center;
-}
-
 
 #home {
     color: white;
@@ -56,6 +16,24 @@ tr:nth-child(even) {
     font-size: 27px;
     padding: 10px;
     text-align: center;
+}
+
+.bar {
+    background-color: white;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar {background-color: #4aaaa5;} 
+    .size_color {background-color: white;}
+}
+
+.border {
+    border-color: #4aaaa5 !important;
 }
 
 #image,
@@ -115,4 +93,23 @@ tr:nth-child(even) {
     height: auto;
     left: 0px;
     right: 0px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+}
+  
+td, th {
+    border: 1px solid #e9e9e9;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #e9e9e9;
 }

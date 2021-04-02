@@ -6,12 +6,12 @@ The purpose here is to use HTML and CSS to create a shareable means of navigatin
 
 - - -
 
-![landing](WebVisualizations/Resources/assets/images/ss_landing.JPG)
+![landing](WebVisualizations/Resources/assets/images/ss_landing.jpg)
 
-![page](WebVisualizations/Resources/assets/images/ss_page.JPG)
+![page](WebVisualizations/Resources/assets/images/ss_page.jpg)
 
-![page1](WebVisualizations/Resources/assets/images/ss_page1.JPG)
+![page1](WebVisualizations/Resources/assets/images/ss_page1.jpg)
 
-![compare](WebVisualizations/Resources/assets/images/ss_compare.JPG)
+![compare](WebVisualizations/Resources/assets/images/ss_compare.jpg)
 
-![table](WebVisualizations/Resources/assets/images/ss_table.JPG)
+![table](WebVisualizations/Resources/assets/images/ss_table.jpg)
